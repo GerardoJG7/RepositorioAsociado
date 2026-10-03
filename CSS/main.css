@@ -1,0 +1,49 @@
+ body{
+       background:rgb(61, 206, 250);
+       font-family: 'Times New Roman', Times, serif;
+     }
+
+     
+ h1{
+    color: rgb(0, 0, 0);
+    text-align: center;/*esto es para centrar el texto*/
+    text-transform: uppercase;/*esto coloca todo en mayuscula*/
+    text-decoration: underline;/*esto es para subrayar*/
+    /*text-decoration: line-through;*/ /*esto es para tachar*/
+   }
+
+
+ p{
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    font-size: 30px;
+    text-indent: 25px;
+
+  }
+
+  /*esto es un selector de id*/  
+#titulo{
+    background: red;
+}
+
+/*esto es un selector de clase*/     
+ .segundo{
+   color: aliceblue; 
+ }
+
+ .segundo1{
+    background: goldenrod;
+ }
+
+/*estilo para el la clase del tercer parrafo */
+.tercero
+{
+font-style: oblique;
+font-weight: bolder;
+font-size: 1.4em;
+}
+
+.listas
+{
+color: #0004ff;
+}
